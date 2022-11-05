@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+:root {
+	/*========== Font and typography ==========*/
+	--body-font: "Montserrat", sans-serif;
+	/*========== Font weight ==========*/
+	--font-regular: 400;
+	--font-medium: 500;
+	--font-bold: 700;
+
+	/* 1rem = 16px*/
+	/* Desktop */
+	--h1-font-size: 1.625rem;
+	--h2-font-size: 1.375rem;
+	--h3-font-size: 1.125rem;
+	--normal-font-size: 1rem;
+
+	--h1-line-height: 2.437rem;
+	--h2-line-height: 2.062rem;
+	--h3-line-height: 1.687rem;
+	--normal-line-height: 1.5rem;
+
+	/* 1rem = 16px*/
+	/* Mobile */
+	--h1-font-size-mobile: 1.5rem;
+	--h2-font-size-mobile: 1.25rem;
+	--h3-font-size-mobile: 1rem;
+	--normal-font-size-mobile: 0.875rem;
+
+	--h1-line-height-mobile: 2.25rem;
+	--h2-line-height-mobile: 1.875rem;
+	--h3-line-height-mobile: 1.5rem;
+	--normal-line-height-mobile: 1.312rem;
+}
+
+/*==================== BASE ====================*/
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #f4f4f4;
+	padding: 0px 20px;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+button {
+	cursor: pointer;
+	background: #3922c5;
+	border-radius: 16px;
+	color: #fff;
+	padding: 14px 24px;
+	gap: 10px;
+}
+button:hover {
+	background: #1f1368;
+}
+button:active {
+	background: #2c1a9a;
+}
+img {
+	max-width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.wrapper {
+	padding: 0px 20px;
+}
+hr {
+	background-color: #d9d9d9;
+	margin-bottom: 1.875rem;
+}
+/*==================== BASE ====================*/
+
+.wrapper img {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+.bike {
+	background-color: #fff;
+}
+.bike-data {
+}
+.bike-title {
+	font-style: normal;
+	font-weight: var(--font-bold);
+	font-size: var(--h1-font-size-mobile);
+	line-height: var(--h1-line-height-mobile);
+	color: #0c0c0c;
+	margin-top: 0;
+	margin-bottom: 1.25rem;
+}
+.bike-info {
+	font-style: normal;
+	font-weight: var(--font-regular);
+	font-size: var(--normal-font-size-mobile);
+	line-height: var(--normal-line-height-mobile);
+	color: #494949;
+	margin-bottom: 0.9375rem;
+}
+.bike-info:last-child {
+	margin-bottom: 1.875rem;
+}
+.bike-characteristics {
+}
+.bike-characteristics__title {
+	font-style: normal;
+	font-weight: var(--font-medium);
+	font-size: var(--h3-font-size-mobile);
+	line-height: var(--h3-line-height-mobile);
+	color: #0c0c0c;
+	margin-bottom: 0.937rem;
+}
+.bike-characteristics__list {
+}
+.characteristics-list {
+  margin-left: 1.25rem;
+}
+.characteristics-list__item {
+	font-style: normal;
+	font-weight: var(--font-regular);
+	font-size: var(--normal-font-size-mobile);
+	line-height: var(--normal-line-height-mobile);
+	color: #494949;
+	margin-bottom: 0.937rem;
+}
+.add-bike {
+}
+.add-bike__characteristics {
+}
+.input {
+	width: 100%;
+	background: #ffffff;
+	border: 1px solid #d9d9d9;
+	border-radius: 16px;
+	padding: 14px 16px;
+	margin-bottom: 0.937rem;
+}
+.btn {
+}
+.btn-add {
+	width: 100%;
+	margin-bottom: 1.875rem;
+}
+.buttons-block {
+	display: flex;
+	justify-content: center;
+	background: #ffffff;
+	box-shadow: 0px 10px 40px rgba(12, 12, 12, 0.1);
+	border-radius: 20px;
+	padding: 30px 20px;
+}
+.btn-ok {
+	margin-right: 0.937rem;
+}
+.btn-cansel {
+	color: #0c0c0c;
+	border: none;
+	background-color: #fff;
+}
