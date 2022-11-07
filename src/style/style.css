@@ -89,9 +89,9 @@ input:focus {
 	border-color: rgba(57, 34, 197, 1);
 }
 .accordion-button.collapsed {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 150%;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150%;
 	color: #0c0c0c;
 }
 .accordion-button {
@@ -197,4 +197,86 @@ input:focus {
 	color: #0c0c0c;
 	border: none;
 	background-color: #fff;
+}
+
+@media screen and (min-width: 765px) {
+	.bike {
+		max-width: 890px;
+		margin: 0 auto;
+	}
+	hr {
+		margin: 0;
+	}
+	.bike-title {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 26px;
+		line-height: 150%;
+		/* or 39px */
+		color: #0c0c0c;
+	}
+	.bike-info {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 150%;
+		/* or 24px */
+		color: #494949;
+		max-width: 450px;
+	}
+	.bike-characteristics__title {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 150%;
+		/* identical to box height, or 27px */
+	}
+	.characteristics-list__item {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 150%;
+		/* identical to box height, or 24px */
+	}
+	.bike-characteristics {
+		margin-bottom: 40px;
+	}
+	.accordion-body {
+		padding: 0;
+	}
+	.wrapper-block__title {
+		display: flex;
+		overflow: hidden;
+		padding: 40px 60px 40px 0px;
+	}
+	.wrapper-block__title img {
+		position: relative;
+		left: -68px;
+		object-fit: cover;
+	}
+	.wrapper-characteristics {
+		padding: 40px 60px;
+	}
+	.characteristics-list {
+		display: flex;
+		flex-wrap: wrap;
+		width: 613px;
+		max-height: 90px;
+		flex-direction: column;
+	}
+	.add-bike__characteristics {
+		display: flex;
+	}
+	.add-bike__characteristics input {
+		width: 351px;
+		height: 52px;
+		margin-right: 1.5rem;
+	}
+	.btn-add {
+		width: 128px;
+		height: 52px;
+	}
+	.buttons-block {
+		width: 726px;
+		height: 112px;
+		justify-content: flex-start;
+	}
 }
